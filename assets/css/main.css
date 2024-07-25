@@ -162,6 +162,11 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	a.hover_link:hover {
+		color: #21b2a6;
+		
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 		font-weight: 800;
@@ -1757,6 +1762,11 @@ input, select, textarea {
 	section.special, article.special {
 		text-align: center;
 	}
+
+	a.more.scrolly:hover {
+		color: #21b2a6; 
+	}
+	
 
 	header p {
 		color: rgba(255, 255, 255, 0.5);
@@ -3886,7 +3896,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
+		background-color: #121b1975;
 		text-align: center;
 	}
 
@@ -3895,11 +3905,11 @@ input, select, textarea {
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.5);
+				color: rgba(255, 255, 255, 0.829);
 			}
 
 				#footer .icons a:hover {
-					color: #fff;
+					color: #21b2a6;
 				}
 
 		#footer .copyright {
@@ -3975,9 +3985,6 @@ input, select, textarea {
 		padding-top: 0;
 	}
 
-	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
-	}
 
 	body.is-mobile.landing #page-wrapper {
 		background: none;
